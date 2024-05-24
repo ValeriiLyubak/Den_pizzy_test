@@ -17,7 +17,7 @@ class Main_page(Base):
         self.driver = driver
 
 
-    # Locators              локаторы стандартные
+    # Locators
 
     select_peperoni = '/html/body/div[6]/div/div[1]/div[1]/div/img[1]'
     confirm = '/html/body/div[7]/div/div/div/div/div/div[2]/div[2]/div/button'
@@ -54,7 +54,7 @@ class Main_page(Base):
 
 
     # actions
-        """Пришлось добавить move to из-за верстки на моем разрешении"""
+
     def move_to_pizza(self):
         ActionChains(self.driver).move_to_element(self.get_select_peperoni()).perform()
 
@@ -79,13 +79,11 @@ class Main_page(Base):
         self.get_confirm().click()
         print('click confirm')
 
-# аналогично с move to confirm
 
     def move_to_confirm(self):
         ActionChains(self.driver).move_to_element(self.get_confirm()).perform()
 
 
-    # methods в методы добавил мовы из-за разрешения моего экрана, плюс таймслипы и получение цены по товарам
 
     def select_2_pizzas(self):
         self.get_current_url()

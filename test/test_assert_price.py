@@ -17,7 +17,6 @@ def test_select_pizzas():
     lp = Landing_page(driver)
     lp.landing_page()
 
-# """сравниваю сумму двух пицц на стартовой странице и сумму заказа на чекауте"""
 
     mp = Main_page(driver)
     price_pep = mp.take_price_peperoni()
