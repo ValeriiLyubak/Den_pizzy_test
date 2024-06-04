@@ -19,7 +19,7 @@ class Cart_page(Base):
 
     # Locators
 
-    checkout_button = '/html/body/div[5]/div/div[1]/div/form/fieldset[1]/div[6]/a'
+    checkout_button = ''
 
 
     # getters

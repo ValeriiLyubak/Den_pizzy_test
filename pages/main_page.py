@@ -21,11 +21,11 @@ class Main_page(Base):
 
     select_peperoni = '//*[@id="category_id-278"]/div/article[2]/div[3]/div'
     confirm = '//*[@id="js-main"]/div/div[3]/article/div[2]/div/div[1]/div/button'
-    price_peperoni = '/html/body/div[6]/div/div[1]/div[1]/div/div[2]/div[2]/h3/span'
-    price_denpizzy = '/html/body/div[6]/div/div[1]/div[2]/div/div[2]/div[2]/h3/span'
-    select_denpizzy = '/html/body/div[6]/div/div[1]/div[2]/div/img[1]'
-    cart = '//*[@id="header"]/div[1]/div[2]/div/div[2]/button'
-    link_akcii = '/html/body/div[3]/div/div[1]/ul/li[8]/a'
+    price_peperoni = ''
+    price_denpizzy = ''
+    select_denpizzy = ''
+    cart = ''
+    link_akcii = ''
 
     # getters
 

@@ -14,7 +14,7 @@ class Finish_page(Base):
 
     # Locators
 
-    price_total = '/html/body/div[3]/div/div[2]/div/div/div/span[1]'
+    price_total = ''
     # getters
 
 

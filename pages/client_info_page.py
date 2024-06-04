@@ -20,8 +20,8 @@ class Client_information_page(Base):
 
     delivery = '//*[@id="pickup_tab"]'
     comment = '//*[@id="order_comment"]'
-    continue_button = '/html/body/div[5]/div/div[1]/div/form/fieldset[2]/div[2]/a[2]'
-    price_total = '/html/body/div[3]/div/div[2]/div/div/div/span[1]'
+    continue_button = ''
+    price_total = ''
 
     # getters
 
