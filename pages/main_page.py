@@ -19,12 +19,12 @@ class Main_page(Base):
 
     # Locators
 
-    select_peperoni = '/html/body/div[6]/div/div[1]/div[1]/div/img[1]'
-    confirm = '/html/body/div[7]/div/div/div/div/div/div[2]/div[2]/div/button'
+    select_peperoni = '//*[@id="category_id-278"]/div/article[2]/div[3]/div'
+    confirm = '//*[@id="js-main"]/div/div[3]/article/div[2]/div/div[1]/div/button'
     price_peperoni = '/html/body/div[6]/div/div[1]/div[1]/div/div[2]/div[2]/h3/span'
     price_denpizzy = '/html/body/div[6]/div/div[1]/div[2]/div/div[2]/div[2]/h3/span'
     select_denpizzy = '/html/body/div[6]/div/div[1]/div[2]/div/img[1]'
-    cart = '/html/body/div[3]/div/div[2]/div/div/a[2]'
+    cart = '//*[@id="header"]/div[1]/div[2]/div/div[2]/button'
     link_akcii = '/html/body/div[3]/div/div[1]/ul/li[8]/a'
 
     # getters
