@@ -19,8 +19,8 @@ class Main_page(Base):
 
     # Locators
 
-    select_peperoni = '//*[@id="category_id-278"]/div/article[2]/div[3]/div'
-    confirm = '//*[@id="js-main"]/div/div[3]/article/div[2]/div/div[1]/div/button'
+    select_peperoni = ''
+    confirm = ''
     price_peperoni = ''
     price_denpizzy = ''
     select_denpizzy = ''
